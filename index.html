@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Week 12 - Weather Application</title>
-        <meta name="description" content="Pulling data from a live source to display the current weather.">
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Week 12 - Weather Application</title>
+  <meta name="description" content="Pulling data from a live source to display the current weather.">
+  <meta name="viewport" content="width=device-width">
 
-        <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
+  <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+  <h1>Bitmaker Weather Application</h1>
+
+  <div class="temp">
+    <div class="curr">25&deg;C</div>
+    <div class="high">26&deg;C</div>
+    <div class="low">18&deg;C</div>
+  </div>
+
+  <form class="search">
+    <label for="loc">City</label>
+    <input type="text" id="loc" class="components" name="loc" value="" placeholder="Type a valid city name">
+    <button type="button" class="components" name="go">Search</button>
+  </form>
 
 
 
 
-
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <!-- <script src="js/date.js"></script> -->
-        <script src="js/current.js"></script>
-        <!--<script src="js/forecast.js"></script>-->
-    </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <!-- <script src="js/date.js"></script> -->
+  <script src="js/current.js"></script>
+  <!--<script src="js/forecast.js"></script>-->
+</body>
 </html>

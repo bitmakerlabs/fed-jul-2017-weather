@@ -1,0 +1,37 @@
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+  font-family: Helvetica;
+}
+
+.search {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 3em;
+  margin: 1em 0;
+}
+  .components {
+    font-size: 1em;
+  }
+
+.temp {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 7em;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.curr {
+  font-size: 5em;
+}
+.high, .low {
+  display: inline-block;
+  font-size: 2em;
+}
